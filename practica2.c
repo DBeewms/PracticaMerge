@@ -75,9 +75,21 @@ int restar(){
 }
 
 int multiplicar(){
-
+    int numero1, numero2;
+    printf("Dime dos numeros...\n");
+    printf("Primer numero...\n");
+    scanf("%i", &numero1);
+    printf("Segundo numero...\n");
+    scanf("%i", &numero2);
+    return numero1 * numero2;
 }
 
 int dividir(){
-
+    int numero1, numero2;
+    printf("Dime dos numeros...\n");
+    printf("Primer numero...\n");
+    scanf("%i", &numero1);
+    printf("Segundo numero...\n");
+    scanf("%i", &numero2);
+    return numero1 / numero2;
 }
