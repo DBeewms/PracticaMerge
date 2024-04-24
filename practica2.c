@@ -55,11 +55,23 @@ int main(int argc, char const *argv[])
 }
 
 int sumar(){
-
+    int numero1, numero2;
+    printf("Dime dos numeros...\n");
+    printf("Primer numero...\n");
+    scanf("%i", &numero1);
+    printf("Segundo numero...\n");
+    scanf("%i", &numero2);
+    return numero1 + numero2;
 }
 
 int restar(){
-
+    int numero1, numero2;
+    printf("Dime dos numeros...\n");
+    printf("Primer numero...\n");
+    scanf("%i", &numero1);
+    printf("Segundo numero...\n");
+    scanf("%i", &numero2);
+    return numero1 - numero2;
 }
 
 int multiplicar(){
